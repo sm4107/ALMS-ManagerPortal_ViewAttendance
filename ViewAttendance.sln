@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewAttendance", "ViewAttendance\ViewAttendance.csproj", "{9DB66337-A973-4602-B9A9-98EBB5B0C67C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DB66337-A973-4602-B9A9-98EBB5B0C67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB66337-A973-4602-B9A9-98EBB5B0C67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB66337-A973-4602-B9A9-98EBB5B0C67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB66337-A973-4602-B9A9-98EBB5B0C67C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25BB27EE-8B1B-46E3-B1FC-D227DE33F352}
+	EndGlobalSection
+EndGlobal

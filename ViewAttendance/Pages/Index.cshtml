@@ -1,0 +1,50 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1>Manager Portal</h1>
+    <h2>Attendance Records</h2>
+    <hr/>
+    <form method="post">
+        <span>Start Date :</span>
+        <input type="date" name="startdate" />
+        <span>End Date :</span>
+        <input type="date" name="enddate" />
+        <input type="submit" value="Get Records Between Dates" />
+        <a asp-page ="Index">View All Records</a>
+        <table class="table">
+            <tr>
+                <th>AttendanceID</th>
+                <th>ProjectID</th>
+                <th>EmployeeID</th>
+                <th>AttedanceDate</th>
+                <th>InTime</th>
+                <th>OutTime</th>
+                <th>AttendanceStatus</th>
+                <th>StatusUpdateDate</th>
+                <th>StatusUpdatedBy</th>
+
+            </tr>
+            @foreach (var item in Model.results)
+            {
+                <tr>
+                    <th>@item.AttendanceID</th>
+                    <th>@item.ProjectID</th>
+                    <th>@item.EmployeeID</th>
+                    <th>@item.AttedanceDate</th>
+                    <th>@item.InTime</th>
+                    <th>@item.OutTime</th>
+                    <th>@item.AttendanceStatus</th>
+                    <th>@item.StatusUpdateDate</th>
+                    <th>@item.StatusUpdatedBy</th>
+
+                </tr>
+
+            }
+        </table>
+    </form>
+
+</div>
